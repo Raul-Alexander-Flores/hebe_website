@@ -17,7 +17,7 @@ const Footer = () => (
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
       <iframe 
-        src="https://player.twitch.tv/?channel=hebecelene&parent=www.example.com" 
+        src="https://player.twitch.tv/?channel=hebecelene&parent=https://hebe-website.vercel.app/" 
         height="378" width="620"></iframe>
 
         

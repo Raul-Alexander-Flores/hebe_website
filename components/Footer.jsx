@@ -16,6 +16,10 @@ const Footer = () => (
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
+      <iframe 
+        src="https://player.twitch.tv/?channel=hebecelene&parent=www.example.com" 
+        height="378" width="620"></iframe>
+
         
         <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
           <img
